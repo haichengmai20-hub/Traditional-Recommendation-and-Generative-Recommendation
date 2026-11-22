@@ -1,0 +1,89 @@
+Torch-RecHub 推荐系统学习框架
+原作者  不要葱姜蒜    页面日期  03-03
+原帖  https://www.xiaohongshu.com/explore/69a63f8d000000000d008806
+网页图序  3/3    分辨率  1080 × 1365
+SHA-256  53edd40ef42b47cd18fa5e08332460f913018a5eed17e390400cfe50811cbff5
+
+原图逐行识别（行首为置信度）
+0.782  精排（CTR预测）
+0.907  from torch_rechub.models.ranking import DeepFM
+0.926  from torch_rechub.trainers import CTRTrainer
+0.911  from torch_rechub.utils.data import DataGenerator
+0.864  dg=DataGenerator(x,y)
+0.916  train_dataloader,val_dataloader,test_dataloader = dg.generate_dataloader(split_ratio=[0.7,0.
+0.910  model=DeepFM(deep_features=deep_features，fm_features=fm_features,mlp_params={"dims":[256,
+0.891  ctr_trainer = CTRTrainer(model)
+0.910  ctr_trainer.fit(train_dataloader,val_dataloader)
+0.921  auc= ctr_trainer.evaluate(ctr_trainer.model,test_dataloader)
+0.934  ctr_trainer.export_onnx("deepfm.onnx")
+0.776  多任务排序
+0.900  fromtorch_rechub.models.multi_taskimportSharedBottom,ESMM,MMoE,PLE,AITM
+0.917  from torch_rechub.trainers import MTLTrainer
+0.924  task_types=["classification","classification"]
+0.917  model=MM0E(features,task_types,8,expert_params={"dims":[32,16]},tower_params_list=[("dim
+0.891  mtl_trainer =MTLTrainer(model)
+0.931  mtl_trainer.fit(train_dataloader,val_dataloader)
+0.937  auc = ctr_trainer.evaluate(ctr_trainer.model,test_dataloader)
+0.933  mtl_trainer.export_onnx("mmoe.onnx")
+0.797  召回模型
+0.895  from torch_rechub.models.matching import DssM
+0.886  from torch_rechub.trainers import MatchTrainer
+0.899  from torch_rechub.utils.data import MatchDataGenerator
+0.912  dg=MatchDataGenerator(x,y)
+0.915  train_dl,test_dl,item_dl=dg.generate_dataloader(test_user,all_item,batch_size=256)
+0.928  model=DssM(user_features,item_features,temperature=0.02,
+0.840  user_params={
+0.856  "dims":[256，128，64],
+0.860  "activation":'prelu',
+0.882  item_params={
+0.834  "dims"：[256，128，64],
+0.882  "activation":'prelu',
+0.502  })
+0.909  match_trainer = MatchTrainer(model)
+0.882  match_trainer.fit(train_di)
+0.928  match_trainer.export_onnx("dssm.onnx")
+0.912  #双塔模型可分别导出用户塔和物品塔：
+0.917  #match_trainer.export_onnx("user_tower.onnx",mode="user")
+0.902  #match_trainer.export_onnx("dssm_item.onnx",tower="item")
+
+放大复识结果（保留识别差异）
+0.651  精排
+0.796  (CTR预测)
+0.878  from torch_rechub.models.ranking import DeepFM
+0.933  from torch_rechub.trainers import CTRTrainer
+0.910  from torch_rechub.utils.data import DataGenerator
+0.880  dg = DataGenerator(x, y)
+0.914  train_dataloader, val_dataloader, test_dataloader = dg.generate_dataloader(split_ratio=[0.7, 0.
+0.929  model = DeepFM(deep_features=deep_features, fm_features=fm_features, mlp_params={"dims": [256,
+0.883  ctr_trainer = CTRTrainer(model)
+0.903  ctr_trainer.fit(train_dataloader, val_dataloader)
+0.919  auc = ctr_trainer.evaluate(ctr_trainer.model, test_dataloader)
+0.906  ctr_trainer.export_onnx("deepfm.onnx")
+0.832  多任务排序
+0.908  from torch_rechub.models.multi_task import SharedBottom, ESMM, MMoE, PLE, AITM
+0.920  from torch_rechub.trainers import MTLTrainer
+0.871  task_types = ["classification", "classification"]
+0.923  model = MMoE(features, task_types, 8, expert_params={"dims": [32,16]}, tower_params_list=[{"dim
+0.886  mtl_trainer = MTLTrainer(model)
+0.915  mtl_trainer.fit(train_dataloader, val_dataloader)
+0.900  auc = ctr_trainer.evaluate(ctr_trainer.model, test_dataloader)
+0.930  mtl_trainer.export_onnx("mmoe.onnx")
+0.642  ?召回模型
+0.897  from torch_rechub.models.matching import DssM
+0.909  from torch_rechub.trainers import MatchTrainer
+0.933  from torch_rechub.utils.data import MatchDataGenerator
+0.914  dg = MatchDataGenerator(x, y)
+0.909  train_dl, test_dl, item_dl = dg.generate_dataloader(test_user, all_item, batch_size=256)
+0.922  model = DssM(user_features, item_features, temperature=0.02,
+0.837  user_params={
+0.888  "dims":[256,128, 64],
+0.843  "activation": "prelu',
+0.810  item_params={
+0.885  "dims":[256, 128, 64],
+0.850  "activation": 'prelu',
+0.913  match_trainer = MatchTrainer(model)
+0.807  match_trainer.fit(train_dl)
+0.931  match_trainer.export_onnx("dssm.onnx")
+0.932  #双塔模型可分别导出用户塔和物品塔：
+0.944  # match_trainer.export_onnx("user_tower.onnx", mode="user")
+0.903  # match_trainer.export_onnx("dssm_item.onnx",tower="item")

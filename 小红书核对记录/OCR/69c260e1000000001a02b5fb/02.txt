@@ -1,0 +1,72 @@
+推荐算法学习路线：特征/序列建模到统一建模
+原作者  小red同学    页面日期  编辑于 03-24
+原帖  https://www.xiaohongshu.com/explore/69c260e1000000001a02b5fb
+网页图序  2/5    分辨率  1080 × 1118
+SHA-256  a26dd34e6e3c63441af1cf91302c2f3aeb462da43dc3d7a7a0b64a5128834e7c
+
+原图逐行识别（行首为置信度）
+0.870  一、FeatureInteractionModels（经典&顶会)
+0.666  务。
+0.845  1. Wide & Deep Learning
+0.881   Cheng et al., Wide &Deep Learning for Recommender Systems. WWW'16 (ACM).
+0.940  ·提出将记忆（Wide）和泛化（Deep）组合以建模低阶与高阶特征交互。
+0.917  2.DeepFM:DeepFactorizationMachine
+0.925  Gu et al., DeepFM:A Factorization-Machine based Neural Network for CTR Prediction.arXiv
+0.932  2017最初发布并在推荐系统社区广泛引用。
+0.922  同时学习低阶（FM）和高阶（DNN）特征交互。
+0.924  3.xDeepFM:CombiningExplicitand ImplicitFeatureInteractions
+0.926  Lianetal.,xDeepFM:CombiningExplicitand ImplicitFeatureInteractionsforRecommender
+0.922  Systems. KDD'18 (ACM). arxiv
+0.917  引入CompressedInteractionNetwork（CIN）来显式建模高阶交互，同时结合隐式路径。
+0.878  4. DCN: Deep & Cross Network
+0.934  Wangetal.,Deep&CrossNetworkforAdClickPredictions.WSDM'18/AAAl'19(常被认为顶
+0.723  会)。
+0.912  通过交叉网络高效学习特征交互。
+0.924  5.Autolnt: Automatic Feature Interaction Learning via Self-Attention
+0.940  Songetal.,Autolnt:AutomaticFeature InteractionLearning viaSelf-AttentiveNeuralNetworks
+0.833  CIKM'19 (ACM).
+0.925  使用自注意力结构自动学习特征交互。
+0.921  6.AFM:AttentionalFactorizationMachines
+0.918  Xiao et al., Attentional Factorization Machines: Learning the Weight of Feature Interactions via
+0.862  AttentionNetworks.CIKM'17 (ACM).
+0.918  利用注意力机制对特征交互权重建模。
+0.905  7. FiBiNET: Feature Importance & Bilinear Interaction Network
+0.906  Huang et al., FiBiNET: Combining Feature Importance and Bilinear Feature Interaction for CTR
+0.908  Prediction.WWWWorkshops/ArXiv'19（虽为workshop/预印，但被大量引用）。
+0.771  arxiv
+
+放大复识结果（保留识别差异）
+0.884  一、FeatureInteraction Models（经典&顶会)
+0.865  这些工作聚焦特征交互
+0.926  (high-order/explicit /implicit交互）
+0.877  建模，广泛应用于推荐系统和CTR预测等任
+0.660  务。
+0.884  1. Wide & Deep Learning
+0.900  Cheng et al., Wide & Deep Learning for Recommender Systems. WWW'16 (ACM),
+0.845  提出将记忆（Wide）和泛化（Deep）乡
+0.927  组合以建模低阶与高阶特征交互。
+0.902  2. DeepFM: Deep Factorization Machine
+0.926  Gu et al., DeepFM: A Factorization-Machine based Neural Network for CTR Prediction. arXiv
+0.866  2017;最初发布并在推荐系统社区广泛引用。
+0.896  同时学习低阶（FM）和高阶（DNN）特征交互。
+0.933  3. xDeepFM: Combining Explicit and Implicit Feature Interactions
+0.941  Lian et al., xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender
+0.873  Systems. KDD'18 (ACM).
+0.775  arXiv
+0.908  引入Compressed InteractionNetwork(CIN)来显式建模高阶交互，同时结合隐式路径。
+0.871  4. DCN: Deep & Cross Network
+0.747  会)。
+0.911  通过交叉网络高效学习特征交互。
+0.922  5. Autolnt: Automatic Feature Interaction Learning via Self-Attention
+0.925  Song et al., Autolnt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks
+0.864  CIKM19 (ACM).
+0.925  使用自注意力结构自动学习特征交互。
+0.921  6. AFM: Attentional Factorization Machines
+0.929  Xiao et al., Attentional Factorization Machines: Learning the Weight of Feature Interactions via
+0.919  Attention Networks. CIKM'17 (ACM)
+0.859  利用注意力机制对特征交互权重建模。
+0.922  7. FiBiNET: Feature Importance & Bilinear Interaction Network
+0.903  Huang et al., FiBiNET: Combining Feature Importance and Bilinear Feature Interaction for CTR
+0.889  Prediction. WwW Workshops / ArXiv'19
+0.882  （虽为workshop/预印，但被大量引用）。
+0.798  arXiv

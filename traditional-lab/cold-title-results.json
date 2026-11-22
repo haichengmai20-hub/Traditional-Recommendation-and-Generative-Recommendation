@@ -1,0 +1,47 @@
+{
+  "item_budget": 50,
+  "item_cf_reserved": 40,
+  "title_reserved": 10,
+  "history_window": 3,
+  "candidate_counts": {
+    "all": {
+      "rows": 4533,
+      "cf_hits": 811,
+      "hybrid_hits": 1091,
+      "recovered": 330,
+      "lost": 50
+    },
+    "cold_target": {
+      "rows": 147,
+      "cf_hits": 0,
+      "hybrid_hits": 32,
+      "recovered": 32,
+      "lost": 0
+    },
+    "warm_target": {
+      "rows": 4386,
+      "cf_hits": 811,
+      "hybrid_hits": 1059,
+      "recovered": 298,
+      "lost": 50
+    }
+  },
+  "first_test_row": {
+    "target": 3681,
+    "train_users_for_target": 0,
+    "item_cf_hit": false,
+    "hybrid_hit": false,
+    "title_additions": [
+      3669,
+      2702,
+      1888,
+      1574,
+      3405,
+      562,
+      3667,
+      2723,
+      2748,
+      2993
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+推荐算法学习路线：特征/序列建模到统一建模
+原作者  小red同学    页面日期  编辑于 03-24
+原帖  https://www.xiaohongshu.com/explore/69c260e1000000001a02b5fb
+网页图序  3/5    分辨率  1133 × 1080
+SHA-256  df967ad5e70f4dbcd621871bf433111c45115e41bfb4347796bfe3c542b484de
+
+原图逐行识别（行首为置信度）
+0.885  二、SequentialModels（经典&顶会）
+0.931  这些工作主要聚焦序列建模（特别是推荐/行为序列）的经典方法，多数发表于顶级会议。
+0.906  1.GRU4Rec:Session-based Recommendation withGRU
+0.919  Hidasiet al., GRU4Rec: Session-based Recommendations with Gated Recurrent Neural
+0.932  Networks.RecSys'16 (ACM).
+0.927  ·采用RNN/GRU对用户行为序列建模。
+0.891  2.SASRec:Self-Attentive Sequential Recommendation
+0.904  Kang & McAuley, Self-Attentive Sequential Recommendation.ICDM'18 (IEEE).
+0.922  ：将Transformer自注意力用于序列推荐。
+0.934  3.BERT4Rec:SequentialRecommendationwithBidirectionalTransformer
+0.892  :Sun et al.,BERT4Rec: SequentialRecommendation with Bidirectional EncoderRepresentations
+0.914  fromTransformer.CIKM'19(ACM).arxiv
+0.927  使用双向Transformer掩码预测序列。
+0.911  4.Caser: Convolutional Sequence Embedding Recommendation Model
+0.911  ·Tang&Wang,PersonalizedTop-N Sequential Recommendationvia Convolutional Sequence
+0.882  Embedding.WSDM'18 (ACM).
+0.857  引入卷积结构建模序列模式。
+0.926  5.NextltNet: Fully Convolutional Sequence Modeling for Next-ltem Prediction
+0.901  Yuanetal.,NextitNet:NextItemRecommendationwithSequentialVariationalAutoencoder/
+0.887  DilatedCNNs.IJCAI'19/AAAl'20（Transformer之后的重要CNN序列模型）。
+0.937  6. HGN: Hierarchical Gating Networks for Sequential Recommendation
+0.894  : Ma et al., Hierarchical Gating Networks for Sequential Recommendation.SIGIR'2o (ACM).
+0.887  ·引入门控机制捕获多粒度序列依赖。
+0.898  7. FPMC: Factorizing Personalized Markov Chains
+0.926  Rendleetal.,FactorizingPersonalizedMarkovChainsforNext-BasketRecommendation.
+0.808  WWW'10 (ACM).
+0.924  经典马尔可夫链序列建模与协同过滤结合方法。

@@ -1,0 +1,478 @@
+{
+  "rows": 16,
+  "users": 14,
+  "beams": 5,
+  "catalog_items": 3686,
+  "distinct_sids": 3670,
+  "catalog_collision_sids": 15,
+  "candidate_count": 80,
+  "invalid_candidates": 0,
+  "duplicate_candidates_within_rows": 0,
+  "ambiguous_candidate_occurrences": 3,
+  "metrics_by_k": {
+    "1": {
+      "hit_count": 1,
+      "HR": 0.0625,
+      "NDCG": 0.0625
+    },
+    "3": {
+      "hit_count": 1,
+      "HR": 0.0625,
+      "NDCG": 0.0625
+    },
+    "5": {
+      "hit_count": 1,
+      "HR": 0.0625,
+      "NDCG": 0.0625
+    }
+  },
+  "cases": [
+    {
+      "test_row_zero_based": 0,
+      "history_sids": [
+        "<a_223><b_80><c_165>",
+        "<a_223><b_80><c_159>",
+        "<a_223><b_80><c_0>",
+        "<a_223><b_80><c_158>",
+        "<a_223><b_198><c_173>",
+        "<a_223><b_198><c_100>",
+        "<a_223><b_80><c_91>",
+        "<a_223><b_80><c_25>",
+        "<a_223><b_86><c_176>",
+        "<a_223><b_72><c_93>"
+      ],
+      "target_sid": "<a_223><b_80><c_216>",
+      "target_item_id": "3681",
+      "target_title": "3D Solutech Real Orange 1.75mm ABS 3D Printer Filament 2.2 LBS (1.0KG)",
+      "predicted_sids": [
+        "<a_223><b_80><c_84>",
+        "<a_223><b_80><c_3>",
+        "<a_223><b_80><c_128>",
+        "<a_223><b_86><c_176>",
+        "<a_223><b_80><c_159>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "2909",
+          "title": "3D Solutech Silver Metal 3D Printer PLA Filament 1.75MM Filament, Dimensional Accuracy +/- 0.03 mm, 2.2 LBS (1.0KG) - PLA175TCMS"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 1,
+      "history_sids": [
+        "<a_202><b_147><c_0>"
+      ],
+      "target_sid": "<a_202><b_118><c_74>",
+      "target_item_id": "278",
+      "target_title": "T-Rex 241309 Shurtech Ferociously Strong Tape, 12 Yd L X 1.88 in W, 1-Roll, 12 Yards, Gunmetal Gray",
+      "predicted_sids": [
+        "<a_107><b_93><c_0>",
+        "<a_202><b_147><c_0>",
+        "<a_71><b_242><c_21>",
+        "<a_202><b_100><c_73>",
+        "<a_202><b_215><c_194>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "181",
+          "title": "AcuRite 00613 Humidity Monitor with Indoor Thermometer, Digital Hygrometer and Humidity Gauge Indicator"
+        },
+        {
+          "id": "182",
+          "title": "AcuRite 00613 Humidity Monitor with Indoor Thermometer, Digital Hygrometer and Humidity Gauge Indicator"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 2,
+      "history_sids": [
+        "<a_202><b_147><c_0>",
+        "<a_202><b_118><c_74>"
+      ],
+      "target_sid": "<a_99><b_53><c_168>",
+      "target_item_id": "719",
+      "target_title": "Gorilla Heavy Duty Construction Adhesive, 2.5 ounce Squeeze Tube, White",
+      "predicted_sids": [
+        "<a_202><b_118><c_74>",
+        "<a_202><b_52><c_122>",
+        "<a_202><b_52><c_171>",
+        "<a_202><b_147><c_0>",
+        "<a_202><b_215><c_194>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "278",
+          "title": "T-Rex 241309 Shurtech Ferociously Strong Tape, 12 Yd L X 1.88 in W, 1-Roll, 12 Yards, Gunmetal Gray"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 3,
+      "history_sids": [
+        "<a_202><b_147><c_0>",
+        "<a_202><b_118><c_74>",
+        "<a_99><b_53><c_168>"
+      ],
+      "target_sid": "<a_108><b_81><c_52>",
+      "target_item_id": "1526",
+      "target_title": "Genova Products 31410CP 1-Inch PVC Pipe Tee - 10 Pack",
+      "predicted_sids": [
+        "<a_244><b_136><c_142>",
+        "<a_202><b_52><c_171>",
+        "<a_244><b_4><c_183>",
+        "<a_202><b_52><c_97>",
+        "<a_202><b_52><c_122>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "609",
+          "title": "Dap 7079812343 Drydex 5.5 Oz 6Pk Raw Building Material, 5.5-Ounce, Pink/White"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 4,
+      "history_sids": [
+        "<a_193><b_222><c_163>",
+        "<a_44><b_28><c_209>",
+        "<a_202><b_242><c_85>",
+        "<a_87><b_105><c_198>",
+        "<a_224><b_81><c_180>",
+        "<a_42><b_33><c_21>",
+        "<a_244><b_59><c_105>",
+        "<a_193><b_229><c_181>",
+        "<a_224><b_33><c_101>",
+        "<a_42><b_251><c_149>"
+      ],
+      "target_sid": "<a_224><b_76><c_250>",
+      "target_item_id": "658",
+      "target_title": "Stanley R120 Rivet Pack Assortment",
+      "predicted_sids": [
+        "<a_42><b_67><c_2>",
+        "<a_42><b_33><c_16>",
+        "<a_42><b_67><c_20>",
+        "<a_42><b_251><c_149>",
+        "<a_224><b_81><c_180>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "347",
+          "title": "DEWALT DBN18200 Heavy Duty 18 Gauge, 2-Inch Brad Nail (5000-Pack)"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 5,
+      "history_sids": [
+        "<a_193><b_5><c_106>",
+        "<a_193><b_5><c_106>",
+        "<a_244><b_185><c_140>",
+        "<a_202><b_25><c_167>",
+        "<a_87><b_44><c_137>",
+        "<a_224><b_163><c_173>",
+        "<a_87><b_0><c_203>",
+        "<a_87><b_44><c_247>",
+        "<a_87><b_238><c_111>",
+        "<a_251><b_188><c_84>"
+      ],
+      "target_sid": "<a_180><b_106><c_10>",
+      "target_item_id": "103",
+      "target_title": "Osborn International 75116SP Steel File Card, 3-3/4\" Brush Area Length",
+      "predicted_sids": [
+        "<a_87><b_222><c_159>",
+        "<a_224><b_163><c_205>",
+        "<a_251><b_188><c_190>",
+        "<a_87><b_238><c_111>",
+        "<a_87><b_44><c_137>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "706",
+          "title": "Shepherd Hardware 9174 2-Inch Cast Iron Swivel Plate Caster, 125-lb Load Capacity"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 6,
+      "history_sids": [
+        "<a_108><b_92><c_217>",
+        "<a_236><b_116><c_106>",
+        "<a_224><b_163><c_54>",
+        "<a_17><b_174><c_1>",
+        "<a_197><b_57><c_227>",
+        "<a_224><b_163><c_184>",
+        "<a_193><b_43><c_179>"
+      ],
+      "target_sid": "<a_104><b_60><c_152>",
+      "target_item_id": "266",
+      "target_title": "iGaging ABSOLUTE ORIGIN 0-6\" Digital Electronic Caliper - IP54 Protection/Extreme Accuracy",
+      "predicted_sids": [
+        "<a_224><b_163><c_205>",
+        "<a_193><b_43><c_134>",
+        "<a_71><b_174><c_9>",
+        "<a_193><b_43><c_179>",
+        "<a_224><b_163><c_184>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "359",
+          "title": "Kreg SK03 Pocket-Hole Screw Kit in 5 Sizes"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 7,
+      "history_sids": [
+        "<a_202><b_10><c_78>",
+        "<a_79><b_24><c_40>",
+        "<a_99><b_119><c_196>",
+        "<a_224><b_17><c_207>",
+        "<a_17><b_96><c_71>",
+        "<a_36><b_43><c_199>",
+        "<a_71><b_44><c_249>",
+        "<a_71><b_114><c_136>",
+        "<a_67><b_244><c_35>"
+      ],
+      "target_sid": "<a_165><b_59><c_69>",
+      "target_item_id": "675",
+      "target_title": "J-B Weld 8265S Original Cold-Weld Steel Reinforced Epoxy - 2 oz.",
+      "predicted_sids": [
+        "<a_71><b_44><c_249>",
+        "<a_71><b_114><c_136>",
+        "<a_67><b_244><c_116>",
+        "<a_67><b_244><c_35>",
+        "<a_67><b_244><c_160>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "2450",
+          "title": "Round Spacer, Nylon, Off-White, 3/8\" Screw Size, 0.675\" OD, 11/64\" ID, 9/16\" Length, Made in US (Pack of 100)"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 8,
+      "history_sids": [
+        "<a_15><b_135><c_68>",
+        "<a_15><b_135><c_68>",
+        "<a_150><b_137><c_127>",
+        "<a_68><b_71><c_239>"
+      ],
+      "target_sid": "<a_193><b_240><c_215>",
+      "target_item_id": "511",
+      "target_title": "Nicholson 06706N Axe File, 8-Inch",
+      "predicted_sids": [
+        "<a_68><b_71><c_239>",
+        "<a_68><b_127><c_240>",
+        "<a_68><b_98><c_239>",
+        "<a_68><b_121><c_203>",
+        "<a_68><b_121><c_117>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "1111",
+          "title": "Country Brook Design | 1 Inch Black Polypropylene Webbing (100 Yards)"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 9,
+      "history_sids": [
+        "<a_36><b_157><c_248>",
+        "<a_36><b_157><c_248>",
+        "<a_193><b_7><c_242>",
+        "<a_14><b_75><c_236>",
+        "<a_14><b_246><c_237>",
+        "<a_17><b_145><c_1>",
+        "<a_44><b_98><c_1>"
+      ],
+      "target_sid": "<a_107><b_104><c_143>",
+      "target_item_id": "1391",
+      "target_title": "Seek Thermal Reveal Thermal Imaging Camera and LED Light, Blue",
+      "predicted_sids": [
+        "<a_206><b_99><c_1>",
+        "<a_94><b_35><c_31>",
+        "<a_44><b_9><c_168>",
+        "<a_44><b_98><c_14>",
+        "<a_44><b_200><c_179>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "1657",
+          "title": "AmScope 25pc Assorted Specimen Collection of Prepared Microscope Slides Glass Slide with Storage Case"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 10,
+      "history_sids": [
+        "<a_36><b_196><c_55>",
+        "<a_223><b_126><c_0>",
+        "<a_223><b_126><c_99>",
+        "<a_223><b_198><c_167>",
+        "<a_223><b_59><c_216>"
+      ],
+      "target_sid": "<a_233><b_86><c_124>",
+      "target_item_id": "2253",
+      "target_title": "CS Hyde High Temperature Fiberglass Tape With Silicone Adhesive, Ivory 1/2 inch x 36 yards",
+      "predicted_sids": [
+        "<a_223><b_201><c_101>",
+        "<a_223><b_86><c_176>",
+        "<a_223><b_198><c_173>",
+        "<a_223><b_198><c_182>",
+        "<a_223><b_126><c_20>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "3016",
+          "title": "HATCHBOX 3D Printer Filament, Dimensional Accuracy +/- 0.03mm, 1.75 mm, 1 kg Spool, Wood"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 11,
+      "history_sids": [
+        "<a_159><b_27><c_133>",
+        "<a_17><b_14><c_32>",
+        "<a_202><b_198><c_218>",
+        "<a_173><b_93><c_124>"
+      ],
+      "target_sid": "<a_202><b_198><c_80>",
+      "target_item_id": "450",
+      "target_title": "X-Treme Tape TPE-X36ZLB Silicone Rubber Self Fusing Tape, 1\" x 36', Triangular, Black",
+      "predicted_sids": [
+        "<a_202><b_198><c_80>",
+        "<a_202><b_198><c_139>",
+        "<a_71><b_201><c_34>",
+        "<a_173><b_23><c_0>",
+        "<a_202><b_198><c_218>"
+      ],
+      "target_rank": 1,
+      "top1_catalog_items": [
+        {
+          "id": "450",
+          "title": "X-Treme Tape TPE-X36ZLB Silicone Rubber Self Fusing Tape, 1\" x 36', Triangular, Black"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 12,
+      "history_sids": [
+        "<a_165><b_15><c_16>",
+        "<a_87><b_242><c_12>",
+        "<a_24><b_165><c_166>",
+        "<a_107><b_55><c_77>",
+        "<a_68><b_121><c_117>"
+      ],
+      "target_sid": "<a_165><b_214><c_30>",
+      "target_item_id": "59",
+      "target_title": "Loctite Ultra Gel Control Super Glue 4-Gram (1363589)",
+      "predicted_sids": [
+        "<a_68><b_121><c_117>",
+        "<a_68><b_121><c_7>",
+        "<a_68><b_121><c_203>",
+        "<a_68><b_121><c_4>",
+        "<a_87><b_242><c_131>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "1840",
+          "title": "TapeCase 3430 0.75in X 5yd White Reflective Tape (1 Roll)"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 13,
+      "history_sids": [
+        "<a_24><b_91><c_229>",
+        "<a_24><b_170><c_144>",
+        "<a_71><b_225><c_89>"
+      ],
+      "target_sid": "<a_104><b_85><c_106>",
+      "target_item_id": "1374",
+      "target_title": "HHIP 4401-0811 Mini Universal Magnetic Base with Fine",
+      "predicted_sids": [
+        "<a_71><b_225><c_89>",
+        "<a_159><b_169><c_154>",
+        "<a_153><b_68><c_107>",
+        "<a_159><b_225><c_218>",
+        "<a_153><b_62><c_50>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "794",
+          "title": "Keeper (07512) Koastal 12' x 1-1/2\" Lashing Strap with Protective Cover, (Pack of 2)"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 14,
+      "history_sids": [
+        "<a_24><b_20><c_0>",
+        "<a_23><b_223><c_190>",
+        "<a_73><b_87><c_68>",
+        "<a_224><b_77><c_115>",
+        "<a_224><b_77><c_180>",
+        "<a_224><b_146><c_222>",
+        "<a_224><b_146><c_94>",
+        "<a_224><b_146><c_29>"
+      ],
+      "target_sid": "<a_73><b_10><c_6>",
+      "target_item_id": "3340",
+      "target_title": "E-Projects 25EP514150R 150 Ohm Resistors, 1/4 W, 5% (Pack of 25)",
+      "predicted_sids": [
+        "<a_224><b_77><c_43>",
+        "<a_224><b_163><c_205>",
+        "<a_224><b_81><c_180>",
+        "<a_42><b_252><c_240>",
+        "<a_224><b_146><c_222>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "914",
+          "title": "The Hillman Group 591518 Small Machine Screws with Nuts Assortment, 195-Pack"
+        }
+      ]
+    },
+    {
+      "test_row_zero_based": 15,
+      "history_sids": [
+        "<a_165><b_159><c_154>",
+        "<a_107><b_133><c_57>",
+        "<a_202><b_100><c_73>"
+      ],
+      "target_sid": "<a_71><b_70><c_24>",
+      "target_item_id": "352",
+      "target_title": "General Tools 1261-4 1/2-Inch Grommet Refill with 24 Grommets",
+      "predicted_sids": [
+        "<a_202><b_100><c_73>",
+        "<a_107><b_93><c_0>",
+        "<a_165><b_59><c_69>",
+        "<a_165><b_59><c_20>",
+        "<a_107><b_133><c_57>"
+      ],
+      "target_rank": null,
+      "top1_catalog_items": [
+        {
+          "id": "23",
+          "title": "Gardner Bender 07315001126 LTB-400 Liquid Electrical Tape, Easy-on, Waterproof, Indoor/Outdoor Use, 4 Oz. Jar, Black, Bottle"
+        }
+      ]
+    }
+  ]
+}

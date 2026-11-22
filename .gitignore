@@ -1,0 +1,14 @@
+# 模型权重与推理依赖：体积过大（约 3.4 GB），不入库
+mini-lab/Industrial_ckpt/
+mini-lab/.infer-deps/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

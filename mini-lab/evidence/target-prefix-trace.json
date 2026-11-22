@@ -1,0 +1,29 @@
+{
+  "test_row_zero_based": 0,
+  "target_sid": "<a_223><b_80><c_216>",
+  "condition": "gold prefix (teacher forced)",
+  "prompt_tokens": 121,
+  "steps": [
+    {
+      "gold_token": "<a_223>",
+      "allowed_next_tokens": 48,
+      "conditional_rank_among_legal_tokens": 1,
+      "ties_at_score_including_gold": 1,
+      "local_top_token": "<a_223>"
+    },
+    {
+      "gold_token": "<b_80>",
+      "allowed_next_tokens": 66,
+      "conditional_rank_among_legal_tokens": 1,
+      "ties_at_score_including_gold": 1,
+      "local_top_token": "<b_80>"
+    },
+    {
+      "gold_token": "<c_216>",
+      "allowed_next_tokens": 21,
+      "conditional_rank_among_legal_tokens": 19,
+      "ties_at_score_including_gold": 1,
+      "local_top_token": "<c_84>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+推荐算法学习路线：特征/序列建模到统一建模
+原作者  小red同学    页面日期  编辑于 03-24
+原帖  https://www.xiaohongshu.com/explore/69c260e1000000001a02b5fb
+网页图序  5/5    分辨率  1080 × 1440
+SHA-256  d9eeab093adb5c4208101482e9a07895c256d1539fb68684002eda2d756aa80d
+
+原图逐行识别（行首为置信度）
+0.641  TAAC
+0.842  腾讯广告算法大赛
+0.742  KDD2026
+0.897  Tencent RdvertisingAlgorithmCompetition
+0.886  借助大赛建立技术认知路径：
+0.914  Baseline跑通→看懂结构→动手改模块→看分数变化→反向理解原理
+0.760  UniRec
+0.830  TAACXKDDCup-2026
+0.886  TENCENT UNI-REC CHALLENGE
+0.841  AcademicTrack
+0.846  Industrial Track
+0.878  TotalPrizeUsD885.000
+
+放大复识结果（保留识别差异）
+0.707  TAAC
+0.875  腾讯广告算法大赛
+0.805  KDD2026
+0.928  TencentAdvertisingAlgarithmCompetition
+0.897  借助大赛建立技术认知路径：
+0.925  Baseline跑通→看懂结构→动手改模块→看分数变化→反向理解原理
+0.792  TAAC X KDD Cup-2026
+0.901  TENCENT UNI-REC CHALLENGE
+0.821  Academic Track
+0.924  Industrial Track
+0.860  TotalPrizeUsD885.000

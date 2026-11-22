@@ -1,0 +1,31 @@
+{
+  "torch": "2.8.0+cpu",
+  "source_shape": [
+    3686,
+    2560
+  ],
+  "sample_rows": [
+    0,
+    63
+  ],
+  "codebook_sizes": [
+    16,
+    16,
+    16
+  ],
+  "seed": 42,
+  "completed_optimizer_steps": 1,
+  "reconstruction_mse_before_step": 3.3284199237823486,
+  "total_loss_before_step": 7.762961387634277,
+  "encoder_weight_max_abs_delta": 0.001001201570034027,
+  "codes_after_step_shape": [
+    64,
+    3
+  ],
+  "row0_after_step": [
+    15,
+    1,
+    1
+  ],
+  "distinct_codes_for_64_rows": 20
+}
